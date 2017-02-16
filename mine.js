@@ -17,7 +17,7 @@ var ficheExca ={
 	desc : "Excalibur, the swordman",
 	pun : "Slash Dash",
 	pdeux : "Radial Blind",
-	ptroix : "Radial Javelin",
+	ptrois : "Radial Javelin",
 	pquatre : "Exalted Blade"
 }
 
