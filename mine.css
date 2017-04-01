@@ -109,7 +109,24 @@ aside{
 	z-index:2;
 	border : 1px solid rgb(130,130,130);
 	margin:5px;
+
 }
+
+				#boltorP:hover{
+					animation-duration: 0.05s;
+					animation-name: dakka;
+					animation-iteration-count: infinite;
+					animation-direction: alternate;
+				}
+
+				@keyframes dakka {
+				  from {}
+
+				  to {
+				    transform: translateX(2px) translateY(-7px);
+				    transform: skewX(1deg) skewY(4deg);
+				  }
+				}
 
 #orokincell{
 	height:auto;
