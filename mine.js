@@ -1,17 +1,4 @@
-/*var textImg = {
-descExca : "Excalibur, the swordman",
-descMag : "Mag, the magnet",
-descVolt : "Volt, the runner",
-descFrost : "Frost, the avalanche",
-descMesa : "Mesa, the gunslinger",
-descLimbo : "Limbo, the gentleman",
-descAsh : "Ash, the assassin",
-descOberon : "Oberon, the paladin",
-descAtlas : "Atlas, the rock",
-descNidus : "Nidus, the corrupted",
-descIvara : "Ivara, the spy",
-descWukong : "Wukong, the monkey king"
-};*/
+/*-------Bordel pour la lightBox-----------*/
 
 var ficheExca ={
 	desc : "Excalibur, the swordman",

@@ -93,13 +93,11 @@ aside{
 	margin:5px;
 }
 
-#frostP{
-	height:auto;
-	max-width:20%;
+#slider{
 	float:right;
-	z-index:2;
-	border : 1px solid rgb(130,130,130);
 	margin:5px;
+	width:30%;
+	height:300px;
 }
 
 #boltorP{
@@ -112,30 +110,42 @@ aside{
 
 }
 
-				#boltorP:hover{
-					animation-duration: 0.05s;
-					animation-name: dakka;
-					animation-iteration-count: infinite;
-					animation-direction: alternate;
-				}
+#boltorP:hover{
+	animation-duration: 0.05s;
+	animation-name: dakka;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
 
-				@keyframes dakka {
-				  from {}
+@keyframes dakka {
+  from {}
 
-				  to {
-				    transform: translateX(2px) translateY(-7px);
-				    transform: skewX(1deg) skewY(4deg);
-				  }
-				}
+  to {
+    transform: translateX(2px) translateY(-7px);
+    transform: skewX(1deg) skewY(4deg);
+  }
+}
+
 
 #orokincell{
-	height:auto;
-	max-width:15%;
-	float:left;
-	z-index:2;
+	background-image : url(img/Orokin_Catalyst.png);
+	background-size: 125px 80px;
+	height : 80px;
+	width : 125px;
+	float : left;
+	z-index : 2;
 	border : 1px solid rgb(130,130,130);
-	margin:5px;	
+	margin: 5px;
+
+	-webkit-transition: background-image 1s; /* For Safari 3.1 to 6.0 */
+    transition: background-image 1s
 }
+
+#orokincell:hover{
+	background-image : url(img/Orokin_Reactor.png);
+	background-size: 125px 80px;
+}
+
 
 #grineer{
 	height:auto;
@@ -155,6 +165,7 @@ footer{
 footer div {
 	width:20%;
 	border : 1px solid rgb(130,130,130);
+	text-align: center;
 }
 
 /*-------------LightBox-------------------------------------------*/
@@ -191,3 +202,4 @@ footer div {
 	text-align:center;
 	font-size: 24px;
 }
+
