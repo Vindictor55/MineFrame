@@ -1,13 +1,26 @@
 body{
-	background:url('http://www.wallpaperup.com/uploads/wallpapers/2015/05/11/683723/8e6a911d59bc932cb300aa51d19f5961.jpg');
-	background-size:cover;
+	background:url('http://i.imgur.com/50TOBSI.jpg');
+	background-size: cover;
+	background-position: 23% 20%;
+	background-attachment: fixed;
 	color: #FFF;
 	text-align:justify;
 	width:100%;
 	height:100%;
 	margin:0px;
 	padding:0px;
-	font-family: Verdana;
+	font-family: "Raleway", "Verdana", sans-serif;
+	font-size: 16px
+}
+
+h2{
+	font-size:1.8em;
+	font-weight: normal;
+}
+
+h3{
+	font-size:1.4em;
+	font-weight: normal;
 }
 
 a{
@@ -53,6 +66,10 @@ header, section, #desc{
 	margin : 20px;
 }
 
+#frames{
+	font-weight : bold;
+}
+
 @media (max-width: 530px) {
 	#logo{
 		width:70%;
@@ -63,7 +80,6 @@ header, section, #desc{
 .avatar{
 	margin: auto;
 	display: block;
-	position: bottom;
 }
 
 section{
@@ -74,6 +90,29 @@ section{
 	width: 70%;
 	display:inline-block;
 	
+}
+
+#limbo{
+	background-image: url('img/LimboIconNewLook.webp');
+	background-size: 65px 66px;
+	background-repeat: no-repeat;
+	margin: 0% 0.6%;
+	width: 65px;
+	height: 66px;
+	position:absolute;
+
+	-webkit-transition: width 1s ease-in-out; /* For Safari 3.1 to 6.0 */
+    transition: width 1s ease-in-out;
+}
+
+#limbo:hover{
+	position:absolute;
+	background-image : url(img/limbo.gif);
+	background-size: 300px 300px;
+	z-index:5;
+	width: 300px;
+	height: 300px;
+	border-radius:20px;
 }
 
 aside{
@@ -93,6 +132,11 @@ aside{
 	margin:5px;
 }
 
+#kavat{
+	max-width: 95%;
+	border-radius: 30px;
+}
+
 #slider{
 	float:right;
 	margin:5px;
@@ -107,7 +151,6 @@ aside{
 	z-index:2;
 	border : 1px solid rgb(130,130,130);
 	margin:5px;
-
 }
 
 #boltorP:hover{
@@ -125,7 +168,6 @@ aside{
     transform: skewX(1deg) skewY(4deg);
   }
 }
-
 
 #orokincell{
 	background-image : url(img/Orokin_Catalyst.png);
@@ -146,7 +188,6 @@ aside{
 	background-size: 125px 80px;
 }
 
-
 #grineer{
 	height:auto;
 	max-width:20%;
@@ -156,9 +197,8 @@ aside{
 	margin:5px;	
 }
 
-
 footer{
-	margin : 10px 10%;
+	margin : 25px 10%;
 	padding : 5px;
 }
 
@@ -202,4 +242,3 @@ footer div {
 	text-align:center;
 	font-size: 24px;
 }
-
